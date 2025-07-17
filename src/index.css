@@ -1,0 +1,32 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul{
+  list-style-type: none;
+}
+
+/*Paleta de Colores*/
+
+:root{
+  --main-color: #8c52fd;
+  --main-soft: #BA97FE;
+  --main-hard: #5302F3;
+  --secondary-color: #efdb62;
+  --secondary-soft:#F9F2C8;
+  --secondary-hard:#C8AF15;
+  --tertiary-color: #e5f1fa;
+  --tertiary-hard:#79B5E5;
+  
+
+  --black-color: #090807;
+  --variation-color: #555f88;
+  --white-color: #ffffff;
+}
