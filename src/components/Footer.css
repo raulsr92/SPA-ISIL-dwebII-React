@@ -1,0 +1,126 @@
+.footer-container{
+    background-color: var(--plumb-soft);
+    padding: 40px 0px 15px 0px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container-down{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    font-size: 14px;
+}
+
+.footer-container-down p:nth-of-type(1) span{
+    font-weight: 600;
+}
+
+.footer-container-down p:nth-of-type(2) span{
+    font-weight: 600;
+    color: var(--main-color)
+}
+
+.footer-container-up{
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 30px;
+    border-bottom: 1px solid var(--main-color)
+
+}
+
+.footer-container-up >div:nth-of-type(1){
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.footer-container-up >div:nth-of-type(1) >h3{
+    font-size: 24px;
+    color: var(--main-color);
+    padding-bottom: 15px;
+}
+
+.footer-container-up >div:nth-of-type(1) > div:nth-of-type(1)> p{
+    font-size: 14px;
+}
+
+.footer-container-up >div:nth-of-type(1) > div:nth-of-type(1)> p > span{
+    font-weight: 600;
+}
+
+.footer-container-up >div:nth-of-type(1) > div:nth-of-type(2){
+    display: flex;
+    column-gap: 10px;
+    padding-top: 12px;
+}
+
+.footer-container-up >div:nth-of-type(1) > div:nth-of-type(1){
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.icon-media-container{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icon-media-container >a{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    width: 40px;
+    height: 40px;
+    color: var(--main-hard);
+    border: 1px solid var(--main-hard);
+        border-radius: 50%;
+
+}
+
+.icon-media-container >a >i{
+    font-size: 20px;
+
+}
+
+
+.icon-media-container >a:hover{
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+    border-radius: 50%;
+
+}
+
+
+.footer-container-up > div:nth-of-type(2){
+    display: flex;
+    column-gap: 80px;
+}
+
+.footer-container-up > div:nth-of-type(2) >div{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.footer-container-up > div:nth-of-type(2) >div >a{
+    font-size: 14px;
+    color: var(--main-color);
+}
+
+.footer-container-up > div:nth-of-type(2) >div >a:hover{
+    font-size: 14px;
+    color: var(--main-hard);
+}

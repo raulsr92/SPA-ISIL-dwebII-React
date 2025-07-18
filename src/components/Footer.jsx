@@ -1,3 +1,4 @@
+import './Footer.css'
 
 function Footer() {
 
@@ -13,19 +14,19 @@ function Footer() {
                         </div>
 
                         <div>
-                            <div>
+                            <div className='icon-media-container'>
                                 <a href=""><i className="fa-brands fa-youtube"></i></a>
                             </div>
-                            <div>
+                            <div className='icon-media-container'>
                                 <a href=""><i class="fa-brands fa-tiktok"></i></a>
                             </div>
-                            <div>
+                            <div className='icon-media-container'>
                                 <a href=""><i class="fa-brands fa-instagram"></i></a>
                             </div>
-                            <div>
+                            <div className='icon-media-container'>
                                 <a href=""><i class="fa-brands fa-github"></i></a>
                             </div>
-                            <div>
+                            <div className='icon-media-container'>
                                 <a href=""><i class="fa-brands fa-linkedin"></i></a>
                             </div>                                                                                                   
                         </div>
@@ -60,7 +61,7 @@ function Footer() {
                             <h4>Contacto</h4>
                             <a href="">Escríbenos</a>
                             <a href="">Trabaja con Nosotros</a>
-                            <a href="">Requerimiento de Colaboraciój</a>
+                            <a href="">Requerimiento de Colaboración</a>
                             <a href="">Comprobantes eletrónicos</a>
                             <a href="">Libro de Reclamaciones</a>
                         </div>
@@ -71,7 +72,7 @@ function Footer() {
                 <section className="footer-container-down">
                     <p> © Copyright <span>Coding with Raul</span> Todos los derechos reservados</p>
 
-                    <p>Elaborado por Raúl Sánchez</p>
+                    <p>Elaborado por <span>Raúl Sánchez</span></p>
 
                 </section>
             </footer>
