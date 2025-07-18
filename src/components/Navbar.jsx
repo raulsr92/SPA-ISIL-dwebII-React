@@ -2,7 +2,7 @@ import './Navbar.css'
 import logoPagina from '../assets/img/CodeWRaul-logo1-sinfondo.png'
 import Boton from './Boton'
 
-function Navbar() {
+function Navbar({opciones}) {
 
     return(
         <>
@@ -25,13 +25,9 @@ function Navbar() {
 
                 <section className='header-section2'>
                     <ul>
-                        <li><a href="">Inicio</a></li>
-                        <li><a href="">Servicios</a></li>
-                        <li><a href="">Portafolio</a></li>
-                        <li><a href="">Precios</a></li>
-                        <li><a href="">Equipo</a></li>
-                        <li><a href="">Testimonio</a></li>
-                        <li><a href="">Contacto</a></li>
+                        {
+                            opciones
+                        }
                     </ul>
                 </section>
 
@@ -40,7 +36,7 @@ function Navbar() {
                 </section>
 
                 <section className='header-section4'>
-                   <i class="fa-solid fa-bars"></i> 
+                   <i className="fa-solid fa-bars"></i> 
                 </section>
             </header>
         </>
