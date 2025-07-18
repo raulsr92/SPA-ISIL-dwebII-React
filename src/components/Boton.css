@@ -1,0 +1,13 @@
+.btn-main{
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 0;
+    background-color: var(--main-color);
+    color: var(--white-color);
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn-main:hover{
+    background-color: var(--main-hard);
+}

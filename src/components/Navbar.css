@@ -1,0 +1,20 @@
+
+.header-section2 ul{
+    display: flex;
+    column-gap: 35px;
+    cursor: pointer;
+}
+
+.header-section2 ul>li>a{
+    color: var(--black-color);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.header-section2 ul>li>a:hover{
+    color: var(--main-hard)
+}
+
+.header-section4{
+    display: none;
+}
