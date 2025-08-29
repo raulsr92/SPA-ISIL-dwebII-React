@@ -1,13 +1,21 @@
 
+import Home from '../components/Home';
+
 function Main() {
 
     return(
         <>
-            <main>
-                <p>
-                    Soy el MAIN
-
-                </p>
+            <main style={
+                {
+                    backgroundColor: "var(--main-ultrasoft)",
+                    display:"flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    paddingTop: "20px",
+                    paddingBottom: "40px"
+                }
+            }>
+                <Home/>
             </main>
         </>
     )

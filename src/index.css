@@ -18,7 +18,9 @@ ul{
 :root{
   --main-color: #8c52fd;
   --main-soft: #BA97FE;
+  --main-ultrasoft: #F2EBFF;
   --main-hard: #5302F3;
+  
   --secondary-color: #efdb62;
   --secondary-soft:#F9F2C8;
   --secondary-hard:#C8AF15;

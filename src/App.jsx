@@ -58,11 +58,7 @@ function App() {
     <>
       <Navbar opciones={opcionesRenderizadas}/>
 
-      <p>Yo no soy componente</p>
-      <i className="fa-brands fa-facebook"></i>
       <Main/>
-
-      <p>Yo no soy componente</p>
 
       <Footer/>
     </>

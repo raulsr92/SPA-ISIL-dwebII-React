@@ -1,0 +1,19 @@
+
+.minicard-container{
+    border: 1px solid var(--main-soft);
+    display: flex;
+    padding: 20px 15px;
+    column-gap: 15px;
+    border-radius: 15px;
+    background-color: var(--white-color);
+}
+
+.minicard-container > div:nth-of-type(2) > p{
+    font-size: 14px;
+}
+
+.minicard-container > div:nth-of-type(2){
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
